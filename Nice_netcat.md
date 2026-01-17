@@ -96,13 +96,20 @@ public class Flag
   49, 
   125, 
   10};
+  
   String flaG = "";
+  
   for(int i = 0; i < Ascii.length; i++)
+  
   {
+  
     flaG += (char)Ascii[i];
   }
+  
   System.out.println(flaG);
+  
   }
+  
 }
 
 Finally I found the flag: picoCTF{g00d_k1tty!_n1c3_k1tty!_83691}
