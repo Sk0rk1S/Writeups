@@ -53,10 +53,15 @@ so I gave up and did it myself
 
 The program used to decode the Ascii characters:
 
+
 public class Flag
+
 {
+
   public static void main(String[] args)
+  
   {
+  
   int[] Ascii = {112, 
   105, 
   99, 
@@ -104,6 +109,7 @@ public class Flag
   {
   
     flaG += (char)Ascii[i];
+    
   }
   
   System.out.println(flaG);
@@ -111,6 +117,7 @@ public class Flag
   }
   
 }
+
 
 Finally I found the flag: picoCTF{g00d_k1tty!_n1c3_k1tty!_83691}
 
