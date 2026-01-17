@@ -1,4 +1,4 @@
-# Instructions: Connect to the host wily-courier.picoctf.net at port 50457 using netcat
+# Instructions: Connect to the host wily-courier.picoctf.net at port 50457 using netcat and convert the ASCII characters into plaintext
 
 I accomplished connecting to the port and hostnumber by using the nc(netcat) command in the format: nc {HOSTNAME} {PORT_NUMBER}
 which was: nc wily-courier.picoctf.net 50457
