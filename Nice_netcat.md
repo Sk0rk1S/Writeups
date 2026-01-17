@@ -1,6 +1,6 @@
 # Instructions: Connect to the host wily-courier.picoctf.net at port 50457 using netcat
-# I accomplished connecting to the port and hostnumber by using the nc(netcat) command in the format: nc {HOSTNAME} {PORT_NUMBER}
-# After connecting, the program spits out the following series of ASCII characters: 
+I accomplished connecting to the port and hostnumber by using the nc(netcat) command in the format: nc {HOSTNAME} {PORT_NUMBER}
+After connecting, the program spits out the following series of ASCII characters: 
 112 
 105 
 99 
@@ -40,4 +40,4 @@
 49 
 125 
 10
-# Using an Ascii to plaintext converter (cyberchef.io), I was able to obtain the following: picoCTF{g00d_k1tty!_n1c3_k1tty!_83691}
+Using an Ascii to plaintext converter (cyberchef.io), I was able to obtain the following: picoCTF{g00d_k1tty!_n1c3_k1tty!_83691}
